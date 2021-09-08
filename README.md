@@ -1,10 +1,10 @@
-# Foobar
+# Terraform AWS EC2
 
-Foobar is a Python library for dealing with word pluralization.
+This project is a way to provision a EC2 on AWS using Terraform CLI.
 
-## Installation
+## Credentials on AWS
 
-Use the package manager [pip](https://pip.pypa.io/en/stable/) to install foobar.
+Use this [article](https://amaurybsouza.medium.com/terraform-e364f5d31570) to create your credentials at AWS.
 
 ```bash
 pip install foobar
