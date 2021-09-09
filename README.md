@@ -8,7 +8,7 @@ Use this [article](https://amaurybsouza.medium.com/terraform-e364f5d31570) to cr
 
 ## Usage
 
-`- Prepare your working directory for other commands`
+- Prepare your working directory for other commands
 
 ```hcl
 terraform init
