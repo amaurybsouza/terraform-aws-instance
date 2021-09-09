@@ -8,6 +8,12 @@ Use this [article](https://amaurybsouza.medium.com/terraform-e364f5d31570) to cr
 
 ## Usage
 
+- First of all, check if your code is correct:
+
+```hcl
+$ terraform fmt
+```
+
 - Prepare your working directory for other commands:
 
 ```hcl
