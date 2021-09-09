@@ -9,6 +9,6 @@ variable "ami" {
 }
 
 variable "instance_type" {
-  description = "value"
+  description = "define what instance_type"
   default     = "t2.micro"
 }     
