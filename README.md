@@ -1,28 +1,17 @@
 # Terraform AWS EC2
 
-This project is a way to provision a EC2 on AWS using Terraform CLI.
+This project is a way to provision a basic EC2 with variables on AWS using Terraform CLI.
 
 ## Credentials on AWS
 
 Use this [article](https://amaurybsouza.medium.com/terraform-e364f5d31570) to create your credentials at AWS.
 
-```bash
-pip install foobar
-```
-
 ## Usage
 
-```python
-import foobar
+`- Prepare your working directory for other commands`
 
-# returns 'words'
-foobar.pluralize('word')
-
-# returns 'geese'
-foobar.pluralize('goose')
-
-# returns 'phenomenon'
-foobar.singularize('phenomena')
+```hcl
+terraform init
 ```
 
 ## Contributing
