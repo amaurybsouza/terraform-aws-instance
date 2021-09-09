@@ -1,6 +1,6 @@
 # Terraform AWS EC2
 
-This project is a way to provision a basic EC2 with variables on AWS using Terraform CLI.
+This project is a way to provision a basic EC2 with variables on AWS using Terraform CLI. According to Terraform documentation, it's a good practice create several ".tf" files to organize your project, when invoking any command that loads the Terraform configuration, Terraform loads all configuration files within the directory specified in alphabetical order.
 
 ## Credentials on AWS
 
@@ -31,9 +31,9 @@ $ terraform apply
 $ terraform destroy
 ```
 
-## Basix Example
+## Basic Examples
 
-- A basic example for provider.tf:
+- A basic example for provider ```.tf```:
 
 ```hcl
 terraform {
@@ -55,7 +55,7 @@ resource "aws_instance" "tutorials" {
 }
 ```
 
-- A basix example for variables .tf:
+- A basix example for variables ```.tf```:
 
 ```hcl
 variable "region" {
