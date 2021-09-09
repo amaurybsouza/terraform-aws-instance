@@ -8,10 +8,27 @@ Use this [article](https://amaurybsouza.medium.com/terraform-e364f5d31570) to cr
 
 ## Usage
 
-- Prepare your working directory for other commands
+- Prepare your working directory for other commands:
 
 ```hcl
-terraform init
+$ terraform init
+```
+- Show changes required by the current configuration:
+
+```hcl
+$ terraform plan
+```
+
+- Create or update infrastructure:
+
+```hcl
+$ terraform apply
+```
+
+- Destroy previously-created infrastructure:
+
+```hcl
+$ terraform destroy
 ```
 
 ## Contributing
