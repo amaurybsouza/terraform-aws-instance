@@ -1,6 +1,6 @@
 # Terraform AWS EC2
 
-This project is a way to provision a basic EC2 with variables on AWS using Terraform CLI. According to Terraform documentation, it's a good practice create several ".tf" files to organize your project, when invoking any command that loads the Terraform configuration, Terraform loads all configuration files within the directory specified in alphabetical order.
+This project is a way to provision a basic EC2 with variables on AWS using Terraform CLI. According to Terraform documentation, it's a good practice create several ".tf" files to organize your project, when invoking any command that loads the Terraform configuration, Terraform loads all configuration files within the directory specified in alphabetical order..
 
 ## Credentials on AWS
 
